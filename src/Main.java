@@ -8,8 +8,8 @@ public class Main {
         RegularPolygon poly1 = new RegularPolygon();
         RegularPolygon poly2 = new RegularPolygon(6, 4);
         RegularPolygon poly3 = new RegularPolygon(10, 4, 5.6, 7.8);
-        System.out.println(poly1);
-        System.out.println(poly2);
-        System.out.println(poly3);
+        System.out.println(poly1.getArea());
+        System.out.println(poly2.getPerimeter());
+        System.out.println(poly3.getN());
     }
 }
